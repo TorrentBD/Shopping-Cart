@@ -75,8 +75,13 @@ if(isset($_POST["getProduct"])){
 								 
 									<img src='product_images/$pro_image' style='width:160px; height:250px;'/>
 								</div>
+
+								 
 								<div class='panel-heading'>Tk.$pro_price
+									
 									<button pid='$pro_id' style='float:right;' id='product' class='btn btn-danger btn-xs'>AddToCart</button>
+
+									<button pid='$pro_id' style='margin-right:10px;' id='#' class='btn btn-primary btn-xs'>VIEW</button>
 								</div>
 							</div>
 						</div>	
@@ -111,8 +116,12 @@ if(isset($_POST["get_seleted_Category"]) || isset($_POST["selectBrand"]) || isse
 								<div class='panel-body'>
 									<img src='product_images/$pro_image' style='width:160px; height:250px;'/>
 								</div>
-								<div class='panel-heading'>BDT.$pro_price.00
+								 
+								<div class='panel-heading'>BDT.$pro_price
+									 
 									<button pid='$pro_id' style='float:right;' id='product' class='btn btn-danger btn-xs'>AddToCart</button>
+
+									<button pid='$pro_id' style='margin-right:10px;' id='#' class='btn btn-primary btn-xs'>VIEW</button>
 								</div>
 							</div>
 						</div>	
